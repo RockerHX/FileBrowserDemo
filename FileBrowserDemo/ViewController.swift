@@ -8,6 +8,7 @@
 
 
 import UIKit
+import FileBrowser
 
 
 class ViewController: UIViewController {
@@ -15,6 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    @IBAction func openButtonTaped() {
+        let fileBrowser = FileBrowser(allowEditing: true)
+        fileBrowser.excludesFileExtensions
+        present(fileBrowser, animated: true, completion: nil)
     }
 
 
