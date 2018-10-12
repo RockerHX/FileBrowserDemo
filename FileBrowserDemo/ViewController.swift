@@ -20,7 +20,6 @@ class ViewController: UIViewController {
 
     @IBAction func openButtonTaped() {
         let fileBrowser = FileBrowser(allowEditing: true)
-        fileBrowser.excludesFileExtensions
         present(fileBrowser, animated: true, completion: nil)
     }
 

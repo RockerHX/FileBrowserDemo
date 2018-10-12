@@ -162,7 +162,6 @@
 				16D60FF0F2778B4DBADA65FD /* Pods-FileBrowserDemoUITests.debug.xcconfig */,
 				A7C2A294E4B741C661AF331E /* Pods-FileBrowserDemoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -570,6 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HG8SBJDJPT;
 				INFOPLIST_FILE = FileBrowserDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HG8SBJDJPT;
 				INFOPLIST_FILE = FileBrowserDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
