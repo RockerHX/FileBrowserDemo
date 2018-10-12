@@ -7,7 +7,6 @@ target 'FileBrowserDemo' do
 
   # Pods for FileBrowserDemo
   pod 'FileBrowser', '~> 1.0'
-  pod 'Files', '~> 2.2.1'
 
   target 'FileBrowserDemoTests' do
     inherit! :search_paths
